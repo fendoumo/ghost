@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 from ghost import Ghost
 from ghost import Session
+import time
 gh = Ghost()
 sessin = Session(gh)
 while True:
@@ -46,4 +47,5 @@ while True:
     except:
         pass
     #print sessin.content
+	time.sleep(600)
 
